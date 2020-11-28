@@ -1,0 +1,146 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"105 C:\Users\antho\Desktop\U2_Audio.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"149
+[v _tono_LA tono_LA `(v  1 e 1 0 ]
+"162
+[v _tono_SI tono_SI `(v  1 e 1 0 ]
+"175
+[v _tono_DO tono_DO `(v  1 e 1 0 ]
+"188
+[v _tono_RE tono_RE `(v  1 e 1 0 ]
+"201
+[v _tono_MI tono_MI `(v  1 e 1 0 ]
+"214
+[v _tono_FA tono_FA `(v  1 e 1 0 ]
+"227
+[v _tono_SOL tono_SOL `(v  1 e 1 0 ]
+"239
+[v _canciones canciones `(v  1 e 1 0 ]
+[s S60 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2483 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[s S69 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S77 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S80 . 1 `S60 1 . 1 0 `S69 1 . 1 0 `S77 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES80  1 e 1 @3969 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S25 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"6606
+[s S28 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S35 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S40 . 1 `S25 1 . 1 0 `S28 1 . 1 0 `S35 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES40  1 e 1 @4033 ]
+"94 C:\Users\antho\Desktop\U2_Audio.X\main.c
+[v _negra negra `l  1 e 4 0 ]
+[v _blanca blanca `l  1 e 4 0 ]
+"105
+[v _main main `(v  1 e 1 0 ]
+{
+"147
+} 0
+"239
+[v _canciones canciones `(v  1 e 1 0 ]
+{
+[v canciones@cancion cancion `i  1 p 2 3 ]
+"362
+} 0
+"227
+[v _tono_SOL tono_SOL `(v  1 e 1 0 ]
+{
+[v tono_SOL@duracion duracion `i  1 p 2 0 ]
+"238
+} 0
+"162
+[v _tono_SI tono_SI `(v  1 e 1 0 ]
+{
+[v tono_SI@duracion duracion `i  1 p 2 0 ]
+"173
+} 0
+"188
+[v _tono_RE tono_RE `(v  1 e 1 0 ]
+{
+[v tono_RE@duracion duracion `i  1 p 2 0 ]
+"199
+} 0
+"201
+[v _tono_MI tono_MI `(v  1 e 1 0 ]
+{
+[v tono_MI@duracion duracion `i  1 p 2 0 ]
+"212
+} 0
+"149
+[v _tono_LA tono_LA `(v  1 e 1 0 ]
+{
+[v tono_LA@duracion duracion `i  1 p 2 0 ]
+"160
+} 0
+"214
+[v _tono_FA tono_FA `(v  1 e 1 0 ]
+{
+[v tono_FA@duracion duracion `i  1 p 2 0 ]
+"225
+} 0
+"175
+[v _tono_DO tono_DO `(v  1 e 1 0 ]
+{
+[v tono_DO@duracion duracion `i  1 p 2 0 ]
+"186
+} 0
