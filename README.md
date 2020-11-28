@@ -12,5 +12,4 @@ la parte visual se muestra en un LCD de 16x2. U1 se conecta al U2 mediante el PO
 Las conexiones para hacer la simulación en Proteus se muestran en la imagen "Conexiones en Proteus".
 
 Equipo:
-Manuel Amadeo Villarreal González
-Anthony Ibrail Ortega Méndez
+Manuel Amadeo Villarreal González; Anthony Ibrail Ortega Méndez
