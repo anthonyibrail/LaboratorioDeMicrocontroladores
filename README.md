@@ -1,4 +1,4 @@
-# ProyectoFinalVideojuego
+# Proyecto Final - Videojuego
 Proyecto Final de Laboratorio de Microcontroladores
 En este proyecto se implementó un videojuego usando 2 PIC18F4550 donde en el primer PIC(U1) contiene la parte visual o gráfica
 mientras que en el PIC(U2) contiene la parte auditiva. El videojuego dura 90 segundos, cada 15 segundos aumenta el valor multiplicativo
