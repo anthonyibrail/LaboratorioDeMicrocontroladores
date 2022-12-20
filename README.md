@@ -16,4 +16,4 @@ Las conexiones para hacer la simulación en Proteus se muestran en la imagen "Co
 * **Manuel Amadeo Villarreal González** - [ManuelAmadeoVillarrealGonzalez](https://github.com/ManuelAmadeoVillarrealGonzalez )
 * **Antony Ibrail Ortega Méndez** - [anthonyibrail](https://github.com/anthonyibrail)
 
-Laboratorio de Microcontroladores - 
+Laboratorio de Microcontroladores - Semestre AD 2020
